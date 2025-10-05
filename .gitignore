@@ -25,6 +25,9 @@ backend/venv/
 settings_local.py
 local_settings.py
 
+# Django static & media (if generated)
+backend/backend/staticfiles/
+backend/backend/media/
 
 
 # Optional: Ignore all migration files (uncomment if needed)
