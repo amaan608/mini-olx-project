@@ -1,0 +1,53 @@
+/* In src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #002f34;
+  text-decoration: none;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #002f34;
+  font-weight: bold;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #00a49f;
+}
+
+.sell-button-link .sell-button {
+  background-color: #ffd100;
+  color: #002f34;
+  border: 2px solid #002f34;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: transform 0.2s;
+}
+
+.sell-button-link .sell-button:hover {
+  transform: scale(1.05);
+}

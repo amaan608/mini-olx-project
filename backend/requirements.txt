@@ -1,0 +1,13 @@
+# Django Core
+django~=4.2
+
+# Django REST Framework for building APIs
+djangorestframework~=3.14
+
+# For JWT (JSON Web Token) Authentication
+djangorestframework-simplejwt~=5.3
+
+# To handle Cross-Origin Resource Sharing (CORS) with the React frontend
+django-cors-headers~=4.3
+
+Pillow~=11.3.0
